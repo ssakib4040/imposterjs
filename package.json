@@ -2,8 +2,9 @@
   "name": "imposterjs",
   "version": "1.0.6",
   "description": "Generate fake/dummy data for testing",
+  "homepage": "https://github.com/ssakib4040/imposterjs",
+  "author": "Sadman Sakib <ssakib4040@gmail.com>",
   "main": "dist/index.js",
-  "author": "Sadman Sakib",
   "scripts": {
     "dev": "webpack --mode=development --watch",
     "build": "webpack",
