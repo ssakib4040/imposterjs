@@ -1,3 +1,3 @@
 const imposter = require("../dist/index.js");
 
-console.log(imposter.getName());
+console.log(imposter.longitude());
