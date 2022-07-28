@@ -1,5 +1,6 @@
+import { firstNames, middleNames, lastNames } from "./names";
+
 class Imposter {
-  static #names = ["John Doe", "Jane Doe", "Bob Doe"];
   constructor() {}
 
   // random data from array
@@ -8,7 +9,10 @@ class Imposter {
   }
 
   static getName() {
-    return this.#randomArray(this.#names);
+    const ranndomName = `${this.#randomArray(firstNames)} ${this.#randomArray(
+      middleNames
+    )} ${this.#randomArray(lastNames)}`;
+    return ranndomName;
   }
 }
 

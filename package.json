@@ -1,12 +1,13 @@
 {
   "name": "imposterjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate fake/dummy data for testing",
   "main": "dist/index.js",
   "author": "Sadman Sakib",
   "scripts": {
     "dev": "webpack --mode=development --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "debug": "nodemon test/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
