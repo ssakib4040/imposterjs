@@ -33,7 +33,7 @@ yarn add imposterjs
 ```js
 const imposter = require("imposterjs");
 
-imposter.getName(); // 'John Doe'
+imposter.name(); // 'John Doe'
 ```
 
 <!-- API -->
