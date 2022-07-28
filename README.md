@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="imposter.png" alt="Logo" width="100" height="100">
+  <a href="#">
+    <img src="https://raw.githubusercontent.com/ssakib4040/imposterjs/master/imposter.png" alt="Logo" width="100" height="100">
   </a>
 
   <h2 align="center">Imposter.js</h2>
@@ -26,8 +26,9 @@ yarn add imposterjs
 <!-- USAGE EXAMPLES -->
 
 ## Usage
-```js
-  const imposter = require('imposterjs');
 
-  imposter.getName(); // 'John Doe'
+```js
+const imposter = require("imposterjs");
+
+imposter.getName(); // 'John Doe'
 ```
