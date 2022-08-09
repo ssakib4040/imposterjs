@@ -50,10 +50,12 @@ imposter.name(); // 'John Doe'
 | `imposter.coordinates()`   | { latitude: 36.113929, longitude: -85.649453 } |
 | `imposter.latitude()`      | 42.1995008                                     |
 | `imposter.longitude()`     | -97.53227299999999                             |
+| `imposter.loremIpsum(200)` | Lorem ipsum dolor .....                        |
 | `imposter.uuid()`          | 4982268e-0ec9-4f5d-9533-e7d09cb693d9           |
 | `imposter.phone()`         | (468) 126-8518                                 |
 | `imposter.email()`         | Genvieve.Chrotoem@hotmail.com                  |
 | `imposter.ip()`            | 146.150.129.126                                |
+| `imposter.macAddress()`    | 113:51:75:4:60:166                             |
 | `imposter.url()`           | https://m.Madeleine.com                        |
 | `imposter.randomString()`  | mXTvAUpxlH                                     |
 | `imposter.randomNumber()`  | 22                                             |

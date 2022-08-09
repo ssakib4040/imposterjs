@@ -1,5 +1,6 @@
 import { firstNames, middleNames, lastNames } from "./modules/names";
 import { addresses } from "./modules/addresses";
+import { lorem } from "./modules/lorem";
 
 class Imposter {
   // random data from array
@@ -52,6 +53,13 @@ class Imposter {
     return randomLongitude;
   }
 
+  // function to generate lorem ipsum
+  static loremIpsum(count = 300) {
+    let loremIpsum = lorem.substring(0, count);
+
+    return loremIpsum;
+  }
+
   static uuid() {
     return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
       /[xy]/g,
@@ -93,6 +101,22 @@ class Imposter {
       "." +
       this.randomNumber(1, 255) +
       "." +
+      this.randomNumber(1, 255)
+    );
+  }
+
+  static macAddress() {
+    return (
+      this.randomNumber(1, 255) +
+      ":" +
+      this.randomNumber(1, 255) +
+      ":" +
+      this.randomNumber(1, 255) +
+      ":" +
+      this.randomNumber(1, 255) +
+      ":" +
+      this.randomNumber(1, 255) +
+      ":" +
       this.randomNumber(1, 255)
     );
   }
