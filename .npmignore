@@ -1,3 +1,7 @@
 src
 webpack.config.js 
 .vscode
+tests
+jest.config.js
+tsconfig.json
+.github
