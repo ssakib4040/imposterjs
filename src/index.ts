@@ -16,7 +16,7 @@ class Imposter {
   // @ts-ignore - Conflict with built-in Function.name, but this is a valid API
   static name(): string {
     const randomName = `${this.randomArray(firstNames)} ${this.randomArray(
-      middleNames
+      middleNames,
     )} ${this.randomArray(lastNames)}`;
     return randomName;
   }
