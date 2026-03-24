@@ -1,19 +1,26 @@
 {
   "name": "imposterjs",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generate fake/dummy data for testing",
   "homepage": "https://github.com/ssakib4040/imposterjs",
   "author": "Sadman Sakib <ssakib4040@gmail.com>",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "webpack --mode=development --watch",
     "build": "webpack",
-    "debug": "nodemon test/index.js"
+    "debug": "nodemon test/index.js",
+    "lint": "eslint src/**/*.ts",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "babel-loader": "^8.2.5",
     "eslint": "^8.20.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   },
